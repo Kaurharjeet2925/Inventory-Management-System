@@ -35,5 +35,28 @@
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone git@github.com:10octharjeet/Inventory-Management-System.git
+git clone https://github.com/Kaurharjeet2925/Inventory-Management-System.git
 cd inventory-management-system
+2. Backend setup
+cd backend
+npm install
+
+
+Create a .env file with:
+
+PORT=5000
+MONGO_URI=<your_mongo_connection_string>
+JWT_SECRET=<your_jwt_secret_key>
+
+
+Start the backend:
+
+npm run dev
+
+3. Frontend setup
+cd ../frontend
+npm install
+npm run dev
+
+
+Visit: http://localhost:3000
